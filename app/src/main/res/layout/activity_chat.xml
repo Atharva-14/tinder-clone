@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Chats.ChatActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/tinder_color"
+            android:id="@+id/t_v_name"
+            android:fontFamily="@font/novaflat_regular"
+            android:text="Hello"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11" />
+
+
+    <LinearLayout
+        android:id="@+id/sendLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Type a Message..."
+            android:fontFamily="@font/novaflat_regular"
+            android:id="@+id/messageText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:src="@drawable/ic_baseline_send_24"
+            android:backgroundTint="@color/white"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Send"
+            android:layout_marginRight="5dp"
+            android:id="@+id/send"/>
+
+    </LinearLayout>
+
+</LinearLayout>

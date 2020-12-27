@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/MatchImage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Match's Name"
+            android:fontFamily="@font/novaflat_regular"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/tinder_color"
+            android:id="@+id/MatchName"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Match's ID"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/Matchid"/>
+
+</LinearLayout>
