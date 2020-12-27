@@ -35,3 +35,6 @@ B.Firebase Panel
   4 - Go to Firebase -> storage and activate it;
 
 !!!DONE!!!
+
+ChooseLoginRegistrationActivity
+![](Images/startPage.jpg)
