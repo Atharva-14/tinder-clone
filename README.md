@@ -36,31 +36,31 @@ B.Firebase Panel
 
 !!!DONE!!!
 
-ChooseLoginRegistrationActivity
+# ChooseLoginRegistrationActivity
 
 ![](Images/startPage.jpg)
 
-Login Activity
+# Login Activity
 
 ![](Images/login.jpg)
 
-Register Activity
+# Register Activity
 
 ![](Images/register.jpg)
 
-Main Activity
+# Main Activity
 
 ![](Images/cardView.jpg)
 
-Settings Activity
+# Settings Activity
 
 ![](Images/setting.jpg)
 
-Matches Activity
+# Matches Activity
 
 ![](Images/matches.jpg)
 
-Chat Activity
+# Chat Activity
 
 ![](Images/chatwindow.jpg)
 
