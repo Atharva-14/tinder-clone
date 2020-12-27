@@ -1,4 +1,4 @@
-Tinder_android_app_clone
+# Tinder_android_app_clone
 
 ▷ Create an android app like tinder
 
@@ -16,7 +16,7 @@ SwipeCards;
 
 PS: If ou're going to download the full project please use your on firebase API, the one in the project will NOT be mantained and the app may not work.
 
-Implementation Guide
+# Implementation Guide
 
 A.Project
   
@@ -34,7 +34,7 @@ B.Firebase Panel
   
   4 - Go to Firebase -> storage and activate it;
 
-!!!DONE!!!
+## !!!DONE!!!
 
 # ChooseLoginRegistrationActivity
 
