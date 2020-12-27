@@ -37,4 +37,30 @@ B.Firebase Panel
 !!!DONE!!!
 
 ChooseLoginRegistrationActivity
+
 ![](Images/startPage.jpg)
+
+Login Activity
+
+![](Images/login.jpg)
+
+Register Activity
+
+![](Images/register.jpg)
+
+Main Activity
+
+![](Images/cardView.jpg)
+
+Settings Activity
+
+![](Images/setting.jpg)
+
+Matches Activity
+
+![](Images/matches.jpg)
+
+Chat Activity
+
+![](Images/chatwindow.jpg)
+
