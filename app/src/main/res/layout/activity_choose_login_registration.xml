@@ -41,7 +41,8 @@ we process your data our Privacy Policy and Cookies Policy."
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="40dp"
+        android:paddingBottom="4dp">
 
     <TextView
         android:layout_width="wrap_content"
